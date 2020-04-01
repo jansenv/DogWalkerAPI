@@ -11,5 +11,6 @@ namespace DogWalkerAPI.Models
         public string Name { get; set; }
         public int NeighborhoodId { get; set; }
         public Neighborhood Neighborhood { get; set; }
+        public List<Walks> Walks { get; set; }
     }
 }
